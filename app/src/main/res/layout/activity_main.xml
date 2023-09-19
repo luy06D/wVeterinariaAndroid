@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Bienvenido"
+        android:textAlignment="center"
+        android:textColor="@color/letra"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        app:srcCompat="@drawable/img_inicio"
+        tools:srcCompat="@drawable/img_inicio" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/letra"
+        android:text="Bienvenido a la veterinaria 'Salchiperro'  "
+        android:textAlignment="center"
+
+        android:textSize="16dp" />
+
+    <TextView
+        android:text="Alivio en cada inyección"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textColor="@color/letra"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btIniciar"
+        android:layout_marginTop="90dp"
+        android:text="Iniciar"
+        android:backgroundTint="@color/celeste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

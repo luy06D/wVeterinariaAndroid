@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Login">
+
+
+    <TextView
+        android:text="Iniciar Sesión"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/letra"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/etlinkRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Es tu primera vez aqui? Registrate"
+        tools:layout_editor_absoluteX="74dp"
+        android:textSize="15dp"
+        android:textColor="@color/celeste"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="264dp"
+            android:layout_marginTop="10dp"
+
+            app:srcCompat="@drawable/android_dog"
+            tools:srcCompat="@drawable/android_dog" />
+
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_marginTop="70dp"
+        android:hint="  usuario@gmail.com"
+
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etContraseña"
+        android:layout_marginTop="30dp"
+        android:hint="  Contraseña"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvRecuperar"
+        android:text="Olvidaste tu contraseña"
+        android:layout_width="match_parent"
+        android:textAlignment="textStart"
+        android:textColor="@color/celeste"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+        android:id="@+id/btIniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/celeste"
+        android:text="Iniciar sesión" />
+
+
+
+
+
+
+</LinearLayout>

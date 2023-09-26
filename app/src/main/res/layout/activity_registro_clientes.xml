@@ -19,18 +19,20 @@
 
 
     <EditText
-        android:id="@+id/etNombres"
-        android:layout_width="match_parent"
-        android:layout_marginTop="90dp"
-        android:hint="Nombres"
-        android:layout_height="wrap_content"/>
-
-    <EditText
         android:id="@+id/etApellidos"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="90dp"
         android:hint="Apellidos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/etNombres"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:hint="Nombres"
+        android:layout_height="wrap_content"/>
+
 
     <EditText
         android:id="@+id/etDni"

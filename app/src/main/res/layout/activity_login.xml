@@ -52,18 +52,18 @@
 
 
     <EditText
-        android:id="@+id/etCorreo"
+        android:id="@+id/etDni"
         android:layout_width="match_parent"
-        android:layout_marginTop="70dp"
-        android:hint="  usuario@gmail.com"
-
+        android:layout_marginTop="50dp"
+        android:hint="Ingrese su DNI"
+        android:inputType="number"
         android:layout_height="wrap_content"/>
 
     <EditText
-        android:id="@+id/etContraseña"
+        android:id="@+id/etClave"
         android:layout_marginTop="30dp"
-        android:hint="  Contraseña"
-
+        android:hint="Ingrese su clave"
+        android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -81,7 +81,7 @@
         android:id="@+id/btIniciarSesion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:backgroundTint="@color/celeste"
         android:text="Iniciar sesión" />
 

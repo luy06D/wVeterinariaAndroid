@@ -52,7 +52,7 @@
 
     <Button
         android:id="@+id/btRegistrarse"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="10dp"
         android:text="Registrar"
         android:backgroundTint="@color/celeste"
         android:layout_width="match_parent"
